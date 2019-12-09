@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { ScrolloModule } from 'ngx-scrollo';
-
 import { AppComponent } from './app.component';
+import { ScrolloModule } from 'ngx-scrollo';
 
 @NgModule({
   declarations: [
