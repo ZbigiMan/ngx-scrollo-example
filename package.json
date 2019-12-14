@@ -1,6 +1,6 @@
 {
   "name": "ngx-scrollo-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -23,7 +23,7 @@
     "@angular/router": "^8.2.14",
     "code-prettify": "~0.1.0",
     "core-js": "^3.4.1",
-    "ngx-scrollo": "0.0.4",
+    "ngx-scrollo": "0.0.5",
     "rxjs": "^6.5.3",
     "uninstall": "0.0.0",
     "zone.js": "^0.10.2"
