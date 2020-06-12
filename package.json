@@ -23,7 +23,7 @@
     "@angular/router": "^8.2.14",
     "code-prettify": "~0.1.0",
     "core-js": "^3.4.1",
-    "ngx-scrollo": "0.0.5",
+    "ngx-scrollo": "0.0.6",
     "rxjs": "^6.5.3",
     "uninstall": "0.0.0",
     "zone.js": "^0.10.2"
