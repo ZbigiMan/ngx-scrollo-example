@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ScrolloModule } from 'ngx-scrollo';
+import { NgxScrolloModule } from 'ngx-scrollo';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ScrolloModule } from 'ngx-scrollo';
   ],
   imports: [
     BrowserModule,
-    ScrolloModule
+    NgxScrolloModule
   ],
   providers: [],
   bootstrap: [AppComponent]
