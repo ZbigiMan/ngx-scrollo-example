@@ -6,12 +6,12 @@ install:
 npm i ngx-scrollo`,
 import:
 `
-import { ScrolloModule } from 'ngx-scrollo';
+import { NgxScrolloModule } from 'ngx-scrollo';
 
 @NgModule({
     // ...
     imports: [
-        ScrolloModule,
+        NgxScrolloModule,
         // ...
     ],
     // ...

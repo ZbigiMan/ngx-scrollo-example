@@ -23,7 +23,7 @@
     "@angular/router": "^12.0.0",
     "code-prettify": "~0.1.0",
     "core-js": "^3.6.5",
-    "ngx-scrollo": "0.0.8",
+    "ngx-scrollo": "0.0.7",
     "rxjs": "^6.5.5",
     "tslib": "^2.0.0",
     "typescript": "^4.2.4",
