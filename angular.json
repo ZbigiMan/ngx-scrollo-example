@@ -95,18 +95,6 @@
               "src/assets"
             ]
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     },
@@ -124,15 +112,6 @@
             "production": {
               "devServerTarget": "ngx-scrollo-project:serve:production"
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }
@@ -163,18 +142,6 @@
             "tsConfig": "projects/ngx-scroll/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-scroll/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-scroll/tsconfig.lib.json",
-              "projects/ngx-scroll/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     },
@@ -203,18 +170,6 @@
             "main": "projects/ngx-scrollo/src/test.ts",
             "tsConfig": "projects/ngx-scrollo/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-scrollo/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-scrollo/tsconfig.lib.json",
-              "projects/ngx-scrollo/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }
