@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-scrollo-project:build"
+            "buildTarget": "ngx-scrollo-project:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-scrollo-project:build:production"
+              "buildTarget": "ngx-scrollo-project:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-scrollo-project:build"
+            "buildTarget": "ngx-scrollo-project:build"
           }
         },
         "test": {
