@@ -175,7 +175,6 @@
       }
     }
   },
-  "defaultProject": "ngx-scrollo-project",
   "cli": {
     "analytics": false
   }
